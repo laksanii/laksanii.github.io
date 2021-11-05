@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&family=Montserrat:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bentham&family=Montserrat:wght@100;300;400;500;700&display=swap");
+
+.bentham {
+  font-family: "Bentham", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif;
+}
+
+.dark-grey {
+  background-color: #333;
+}
+
+.grey {
+  background: rgb(179, 179, 179);
+  background: linear-gradient(180deg, rgba(179, 179, 179, 1) 0%, rgba(153, 153, 153, 1) 11%);
+}
+
+.soft-grey {
+  background: rgb(153, 153, 153);
+  background: linear-gradient(180deg, rgba(153, 153, 153, 1) 0%, rgba(179, 179, 179, 1) 11%);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.img-profile {
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+/* about */
+.img-about {
+  margin-top: -120px;
+}
+
+/* Projects */
+.img-project {
+  transition: 0.5s;
+}
+
+.img-project:hover {
+  transform: scale(1.2);
+}
+
+/* Skills */
+.img-skill {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.img-skill:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+  .img-project {
+    width: 300px;
+  }
+}
