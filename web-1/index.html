@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Admin</title>
+    <link rel="stylesheet" href="assets/css/admin/home.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="https://laksanii.github.io/web-1/" class="brand">
+                        <span class="brand-name prompt">Rumah Kos</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="../home/">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../penghuni-kos/">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Data Penghuni Kos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../kamar/">
+                        <span class="icon">
+                            <ion-icon name="albums-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Kamar Kos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../laporan/">
+                        <span class="icon">
+                            <ion-icon name="calculator-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Laporan Pembayaran</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../transaksi/">
+                        <span class="icon">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Transaksi Pembayaran</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="nav exo">Log out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <div class="dropdown">
+                <div class=" admin-profile" onclick="myFunction()">
+                    <div class="img-box">
+                        <img src="assets/img/lumine.png" alt="Admin" class="img-profile">
+                    </div>
+                    <div class="name">
+                        <span>Prasetyo Adi Pratama Nugroho</span>
+                        <span class="arrow-down">
+                            <ion-icon name="chevron-down-outline"></ion-icon>
+                        </span>
+                    </div>
+                </div>
+                <div id="dropdownContent" class="dropdown-content exo">
+                    <a href="https://youtube.com/" target="blank">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <a href="../penghuni-kos/">
+                <div class="content-box exo">
+                    <span class="content-icon">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Total Penghuni Kos
+                    </span>
+                </div>
+            </a>
+            <a href="../kamar/">
+                <div class="content-box">
+                    <span class="content-icon">
+                        <ion-icon name="albums-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Total Kamar Kos
+                    </span>
+                </div>
+            </a>
+            <a href="../laporan/">
+                <div class="content-box">
+                    <span class="content-icon">
+                        <ion-icon name="calculator-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Laporan Pembayaran
+                    </span>
+                </div>
+            </a>
+            <a href="../transaksi/">
+                <div class="content-box">
+                    <span class="content-icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </span>
+                    <span class="text">
+                        Transaksi
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/profileToggle.js"></script>
+</body>
+
+</html>
