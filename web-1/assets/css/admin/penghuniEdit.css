@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.prompt {
+  font-family: "Prompt", sans-serif;
+}
+
+.exo {
+  font-family: "Exo", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  background-color: #11698e;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header .back ion-icon {
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.form {
+  padding: 20px 20px 10px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.form input[type="submit"] {
+  border: none;
+  outline: none;
+  background-color: #11698e;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #0b425a;
+}
+
+.field label {
+  margin-bottom: 10px;
+}
+
+.field input,
+select {
+  border: 1px solid #11698e;
+  outline: none;
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+.field input[type="date"] {
+  font-size: 23px;
+}
+
+.field select {
+  width: 30%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
