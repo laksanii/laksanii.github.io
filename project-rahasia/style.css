@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 50px;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3d3d3d;
+  overflow: hidden;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0);
+  }
+
+  to {
+    transform: rotateX(630deg);
+  }
+}
+
+.container {
+  display: flex;
+  transform-style: preserve-3d;
+  gap: 10px;
+  transform: rotateY(20deg) rotateX(10deg);
+}
+
+.container .text {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  transform-style: preserve-3d;
+  /* transition: 2.5s ease-in-out; */
+  animation: rotate 7s infinite;
+  animation-delay: calc(0.5s * var(--j));
+}
+
+.container .text::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: #373737;
+  transform-origin: left;
+  transform: rotateY(90deg) translateX(-35px);
+}
+
+.container .text span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(#434343, #535353);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: #fff;
+  transform-style: preserve-3d;
+  transform: rotateX(calc(90deg * var(--i))) translateZ(35px);
+}
+
+i {
+  z-index: -999;
+  position: absolute;
+  top: 0;
+  height: 200px;
+  background: linear-gradient(transparent, #fff);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+
+i:nth-child(3n + 1) {
+  background: linear-gradient(transparent, #92a9bd);
+}
+i:nth-child(3n + 2) {
+  background: linear-gradient(transparent, #7c99ac);
+}
+i:nth-child(3n + 3) {
+  background: linear-gradient(transparent, #ffefef);
+}
+i:nth-child(3n + 4) {
+  background: linear-gradient(transparent, #d3dedc);
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-200px);
+  }
+
+  100% {
+    transform: translateY(calc(100vh + 200px));
+  }
+}
