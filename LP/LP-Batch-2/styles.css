@@ -849,7 +849,7 @@ video {
 }
 
 .bg-\[url\(\'\/assets\/2\.png\'\)\] {
-  background-image: url('/assets/2.png');
+  background-image: url('./assets/2.png');
 }
 
 .bg-custom-gradient {
