@@ -232,6 +232,9 @@
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
+  .col-span-3 {
+    grid-column: span 3 / span 3;
+  }
   .col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -342,6 +345,9 @@
   }
   .min-h-\[50px\] {
     min-height: 50px;
+  }
+  .min-h-\[70px\] {
+    min-height: 70px;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -669,6 +675,9 @@
   }
   .pr-8 {
     padding-right: calc(var(--spacing) * 8);
+  }
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
