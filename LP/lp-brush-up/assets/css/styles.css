@@ -857,6 +857,11 @@
       padding-inline: calc(var(--spacing) * 20);
     }
   }
+  .sm\:pe-12 {
+    @media (width >= 40rem) {
+      padding-inline-end: calc(var(--spacing) * 12);
+    }
+  }
   .sm\:text-2xl {
     @media (width >= 40rem) {
       font-size: var(--text-2xl);
