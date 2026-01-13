@@ -575,8 +575,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\/hiragana_assets\/images\/hero-background\.webp\)\] {
-    background-image: url(/hiragana_assets/images/hero-background.webp);
+  .bg-\[url\(\hiragana_assets\/images\/hero-background\.webp\)\] {
+    background-image: url(hiragana_assets/images/hero-background.webp);
   }
   .bg-cover {
     background-size: cover;
