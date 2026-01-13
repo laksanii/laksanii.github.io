@@ -10,42 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Get all CTA buttons
-  const ctaButtons = document.querySelectorAll("button");
-
-  // Add click handlers for WhatsApp and Registration buttons
-  ctaButtons.forEach((button) => {
-    const buttonText = button.textContent.trim();
-
-    if (buttonText.includes("Konsultasi WA")) {
-      button.addEventListener("click", function () {
-        // Replace with actual WhatsApp number
-        const whatsappNumber = "6281234567890"; // Update this
-        const message = encodeURIComponent(
-          "Halo, saya tertarik dengan Kelas Hiragana & Katakana"
-        );
-        window.open(
-          `https://wa.me/${whatsappNumber}?text=${message}`,
-          "_blank"
-        );
-      });
-    } else if (
-      buttonText.includes("Daftar Sekarang") ||
-      buttonText.includes("Ambil Promo")
-    ) {
-      button.addEventListener("click", function () {
-        // Scroll to pricing section or open registration form
-        const pricingSection = document.querySelector(
-          "section.bg-\\[\\#111827\\]"
-        );
-        if (pricingSection && !buttonText.includes("Ambil Promo")) {
-          pricingSection.scrollIntoView({ behavior: "smooth", block: "start" });
-        } else {
-          // Add your registration form link here
-          alert("Form pendaftaran akan dibuka di sini");
-        }
-      });
-    }
-  });
+  const ctaButtons = document.querySelectorAll("a.button");
 
   // Add hover effects for buttons
   ctaButtons.forEach((button) => {
