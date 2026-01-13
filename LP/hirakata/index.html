@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WKWK Japanese - Kelas Hiragana & Katakana</title>
-    <link rel="stylesheet" href="hiragana_assets/css/styles.css" />
+    <link rel="stylesheet" href="./hiragana_assets/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="shortcut icon" href="https://cdn.wkwk-japanese.com/icon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="https://cdn.wkwk-japanese.com/icon/manifest.json">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;700&display=swap"
         rel="stylesheet" />
@@ -18,478 +19,492 @@
 </head>
 
 <body class="min-h-screen">
-    <!-- Hero Section -->
-    <section class="section-container relative">
-        <!-- Background Overlay -->
-        <div class="absolute inset-0 bg-brand-pink/67"></div>
-        <div
-            class="absolute inset-0 bg-hero bg-cover bg-center opacity-10">
-        </div>
-        <div class="px-6 py-6 relative z-10 overflow-hidden">
-            <!-- Header -->
-            <div class="mb-[15px]" data-aos="fade-down" data-aos-duration="600">
-                <div class="flex items-center justify-between mb-6 relative">
-                    <img src="https://cdn.wkwk-japanese.com/icon/%5BWKWK+JP%5D+LOGO_FA_V2.png" alt="WKWK Japanese Logo"
-                        class="w-14 h-14" />
-                    <img src="hiragana_assets/images/japan-flag.webp" alt="Japan Flag"
-                        class="w-12 h-12 rounded-lg custom-shadow-japan" />
+    <main class="mx-auto section-container">
+        <!-- Hero Section -->
+        <section class="section-container relative">
+            <!-- Background Overlay -->
+            <div class="absolute inset-0 bg-brand-pink/67"></div>
+            <div
+                class="absolute inset-0 bg-[url(/hiragana_assets/images/hero-background.webp)] bg-cover bg-center opacity-10">
+            </div>
+            <div class="px-6 py-6 relative z-10 overflow-hidden">
+                <!-- Header -->
+                <div class="mb-[15px]" data-aos="fade-down" data-aos-duration="600">
+                    <div class="flex items-center justify-between mb-6 relative">
+                        <img src="https://cdn.wkwk-japanese.com/icon/%5BWKWK+JP%5D+LOGO_FA_V2.png"
+                            alt="WKWK Japanese Logo" class="w-14 h-14" />
+                        <img src="./hiragana_assets/images/japan-flag.webp" alt="Japan Flag"
+                            class="w-12 h-12 rounded-lg custom-shadow-japan" />
+                    </div>
+                    <div class="mx-auto bg-brand-red px-2 py-1 w-fit xs:-mt-8  -mt-6">
+                        <span class="text-white xs:text-base text-sm font-semibold">Kelas Hiragana & Katakana</span>
+                    </div>
+
                 </div>
-                <div class="mx-auto bg-brand-red px-2 py-1 w-fit -mt-8">
-                    <span class="text-white text-base font-semibold">Kelas Hiragana & Katakana</span>
+
+                <!-- Title -->
+                <h1 class="text-[30px] font-bold leading-[39px] text-black mb-6 relative z-10 text-center"
+                    data-aos="fade-up" data-aos-delay="100">
+                    Mulai Belajar Bahasa Jepang Dengan Kuasai Hiragana & Katakana!
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="text-base font-medium leading-[27px] text-black mb-[140px] max-w-[257px] relative z-10"
+                    data-aos="fade-up" data-aos-delay="200">
+                    Buat kamu yang <b>baru mulai</b> dan pengen belajar bahasa Jepang dengan cara
+                    yang lebih santai dan mudah dipahami!
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="flex gap-2 justify-center relative z-10" data-aos="fade-up" data-aos-delay="300">
+                    <button
+                        class="bg-brand-red text-white rounded-md font-semibold text-xs xs:text-base px-4 py-3 h-fit flex items-center gap-2 leading-[-0.011rem]">
+                        <span>Daftar Sekarang</span>
+                        <img src="./hiragana_assets/images/arrow-right.svg" alt="Arrow"
+                            class="w-4 h-4 brightness-0 invert" />
+                    </button>
+                    <button
+                        class="bg-brand-green text-white rounded-md font-semibold text-xs xs:text-base px-4 py-3 h-fit flex items-center gap-2 leading-[-0.011rem]">
+                        <img src="./hiragana_assets/images/whatsapp.svg" alt="WhatsApp"
+                            class="w-4 h-4 brightness-0 invert" />
+                        <span>Konsultasi WA</span>
+                    </button>
                 </div>
 
+                <!-- Student Image -->
+                <div class="absolute bottom-0 -right-6" data-aos="fade-left" data-aos-delay="400">
+                    <img src="./hiragana_assets/images/student-hero.webp" alt="Student"
+                        class="ml-auto xs:w-[244px] xs:h-[352px] w-[200px] object-cover" />
+                </div>
+
+                <!-- Decorative Japanese Characters -->
+                <div class="absolute xs:left-[35px] xs:top-[375px] left-[20px] top-[430px] xs:text-[64px] text-[48px] font-bold leading-[39px] z-0"
+                    data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
+                    style="color: rgba(178, 1, 0, 0.38)">
+                    あ
+                </div>
+                <div class="absolute xs:left-[144px] xs:top-[369px] left-[120px] top-[430px] xs:text-[36px] text-[28px] font-bold leading-[39px] z-0"
+                    data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"
+                    style="color: rgba(178, 1, 0, 0.38)">
+                    か
+                </div>
+                <div class="absolute xs:left-[101px] xs:top-[419px] left-[80px] top-[480px] xs:text-[48px] text-[28px] font-bold leading-[39px] z-0"
+                    data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"
+                    style="color: rgba(178, 1, 0, 0.38)">
+                    さ
+                </div>
             </div>
 
-            <!-- Title -->
-            <h1 class="text-[30px] font-bold leading-[39px] text-black mb-6 relative z-10 text-center"
-                data-aos="fade-up" data-aos-delay="100">
-                Mulai Belajar Bahasa Jepang Dengan Kuasai Hiragana & Katakana!
-            </h1>
+        </section>
 
-            <!-- Subtitle -->
-            <p class="text-base font-medium leading-[27px] text-black mb-[140px] max-w-[257px] relative z-10"
-                data-aos="fade-up" data-aos-delay="200">
-                Buat kamu yang <b>baru mulai</b> dan pengen belajar bahasa Jepang dengan cara
-                yang lebih santai dan mudah dipahami!
-            </p>
+        <!-- What is Hiragana & Katakana Section -->
+        <section class="section-container px-4 py-6 relative overflow-hidden">
+            <div class="bg-white rounded-md border border-[#e5e5e5] pb-6" data-aos="fade-up"
+                style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
+                <div class="p-6">
+                    <h2 class="text-2xl font-extrabold text-gray-dark mb-5 text-center" data-aos="fade-up"
+                        data-aos-delay="100" style="letter-spacing: -0.46px; line-height: 32px">
+                        Apa Itu Huruf Hiragana & Katakana?
+                    </h2>
 
-            <!-- CTA Buttons -->
-            <div class="flex gap-2 justify-center relative z-10" data-aos="fade-up" data-aos-delay="300">
-                <button
-                    class="bg-brand-red text-white rounded-md font-semibold text-xs xs:text-base px-4 py-3 h-fit flex items-center gap-2 leading-[-0.011rem]">
-                    <span>Daftar Sekarang</span>
-                    <img src="hiragana_assets/images/arrow-right.svg" alt="Arrow"
-                        class="w-4 h-4 brightness-0 invert" />
-                </button>
-                <button
-                    class="bg-brand-green text-white rounded-md font-semibold text-xs xs:text-base px-4 py-3 h-fit flex items-center gap-2 leading-[-0.011rem]">
-                    <img src="hiragana_assets/images/whatsapp.svg" alt="WhatsApp"
-                        class="w-4 h-4 brightness-0 invert" />
-                    <span>Konsultasi WA</span>
-                </button>
-            </div>
+                    <p class="text-lg font-normal text-gray-dark mb-5" data-aos="fade-up" data-aos-delay="150"
+                        style="letter-spacing: -0.25px; line-height: 28px">
+                        <span class="font-semibold">Hiragana dan katakana</span> adalah dua
+                        jenis huruf yang digunakan dalam bahasa Jepang.
+                    </p>
 
-            <!-- Student Image -->
-            <div class="absolute bottom-0 -right-6" data-aos="fade-left" data-aos-delay="400">
-                <img src="hiragana_assets/images/student-hero.webp" alt="Student"
-                    class="ml-auto w-[244px] h-[352px] object-cover" />
-            </div>
+                    <p class="text-lg font-normal text-text-primary mb-5"
+                        style="letter-spacing: -0.25px; line-height: 28px">
+                        Hiragana digunakan untuk menulis kata-kata asli bahasa Jepang.
+                        Hiragana juga sering digunakan untuk menuliskan partikel, kata kerja,
+                        dan kata sifat.
+                    </p>
 
-            <!-- Decorative Japanese Characters -->
-            <div class="absolute left-[35px] top-[375px] text-[64px] font-bold leading-[39px] z-0" data-aos="fade-up"
-                data-aos-delay="500" data-aos-duration="1000" style="color: rgba(178, 1, 0, 0.38)">
-                あ
-            </div>
-            <div class="absolute left-[144px] top-[369px] text-[36px] font-bold leading-[39px] z-0" data-aos="fade-up"
-                data-aos-delay="600" data-aos-duration="1000" style="color: rgba(178, 1, 0, 0.38)">
-                か
-            </div>
-            <div class="absolute left-[101px] top-[419px] text-[48px] font-bold leading-[39px] z-0" data-aos="fade-up"
-                data-aos-delay="700" data-aos-duration="1000" style="color: rgba(178, 1, 0, 0.38)">
-                さ
-            </div>
-        </div>
+                    <p class="text-lg font-normal text-text-primary mb-8"
+                        style="letter-spacing: -0.25px; line-height: 28px">
+                        Sedangkan Katakana digunakan untuk menulis kata-kata yang berasal dari
+                        bahasa asing.
+                    </p>
+                </div>
 
-    </section>
+                <!-- Why Learn Section -->
+                <div class="py-2 px-4">
+                    <div class="bg-brand-pink rounded-xl p-6 mb-6 relative overflow-hidden" data-aos="fade-up"
+                        data-aos-delay="200" style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
+                        <h3 class="text-2xl font-extrabold text-text-primary mb-6 text-center"
+                            style="letter-spacing: -0.46px; line-height: 32px">
+                            Kenapa Harus Belajar Hiragana & Katakana Terlebih Dahulu?
+                        </h3>
 
-    <!-- What is Hiragana & Katakana Section -->
-    <section class="section-container px-4 py-6 relative overflow-hidden">
-        <div class="bg-white rounded-md border border-[#e5e5e5] pb-6" data-aos="fade-up"
-            style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
-            <div class="p-6">
-                <h2 class="text-2xl font-extrabold text-gray-dark mb-5 text-center" data-aos="fade-up"
-                    data-aos-delay="100" style="letter-spacing: -0.46px; line-height: 32px">
-                    Apa Itu Huruf Hiragana & Katakana?
-                </h2>
-
-                <p class="text-lg font-normal text-gray-dark mb-5" data-aos="fade-up" data-aos-delay="150"
-                    style="letter-spacing: -0.25px; line-height: 28px">
-                    <span class="font-semibold">Hiragana dan katakana</span> adalah dua
-                    jenis huruf yang digunakan dalam bahasa Jepang.
-                </p>
-
-                <p class="text-lg font-normal text-text-primary mb-5"
-                    style="letter-spacing: -0.25px; line-height: 28px">
-                    Hiragana digunakan untuk menulis kata-kata asli bahasa Jepang.
-                    Hiragana juga sering digunakan untuk menuliskan partikel, kata kerja,
-                    dan kata sifat.
-                </p>
-
-                <p class="text-lg font-normal text-text-primary mb-8"
-                    style="letter-spacing: -0.25px; line-height: 28px">
-                    Sedangkan Katakana digunakan untuk menulis kata-kata yang berasal dari
-                    bahasa asing.
-                </p>
-            </div>
-
-            <!-- Why Learn Section -->
-            <div class="py-2 px-4">
-                <div class="bg-brand-pink rounded-xl p-6 mb-6 relative overflow-hidden" data-aos="fade-up"
-                    data-aos-delay="200" style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
-                    <h3 class="text-2xl font-extrabold text-text-primary mb-6 text-center"
-                        style="letter-spacing: -0.46px; line-height: 32px">
-                        Kenapa Harus Belajar Hiragana & Katakana Terlebih Dahulu?
-                    </h3>
-
-                    <div class="space-y-4 mb-6 overflow-visible">
-                        <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="250">
-                            <img src="hiragana_assets/images/check-circle.svg" alt="Check"
-                                class="w-6 h-6 mt-0.5 shrink-0" />
-                            <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
-                                Fondasi Utama Bahasa Jepang
-                            </p>
-                        </div>
-
-                        <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="300">
-                            <img src="hiragana_assets/images/check-circle.svg" alt="Check"
-                                class="w-6 h-6 mt-0.5 shrink-0" />
-                            <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
-                                Tata bahasa tidak bisa dipelajari tanpa Hiragana
-                            </p>
-                        </div>
-
-                        <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="350">
-                            <img src="hiragana_assets/images/check-circle.svg" alt="Check"
-                                class="w-6 h-6 mt-0.5 shrink-0" />
-                            <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
-                                Belajar kanji butuh Hiragana
-                            </p>
-                        </div>
-
-                        <div class="grid grid-cols-[2fr_1.2fr] mb-[59px] overflow-visible">
-                            <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="400">
-                                <img src="hiragana_assets/images/check-circle.svg" alt="Check"
-                                    class="w-6 h-6 mt-0.5" />
-                                <p class="text-lg leading-[25px] font-normal text-text-primary tracking-[-0.014rem]">
-                                    Tanpa Hiragana & Katakana progres belajar jadi sangat lambat
+                        <div class="space-y-4 mb-6 overflow-visible">
+                            <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="250">
+                                <img src="./hiragana_assets/images/check-circle.svg" alt="Check"
+                                    class="w-6 h-6 mt-0.5 shrink-0" />
+                                <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
+                                    Fondasi Utama Bahasa Jepang
                                 </p>
                             </div>
-                            <div class="overflow-visible">
-                                <!-- Student Image -->
-                                <img src="hiragana_assets/images/student-benefits.webp" alt="Student"
-                                    class="absolute -right-8 bottom-0 w-[170px] z-50 object-contain" />
+
+                            <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="300">
+                                <img src="./hiragana_assets/images/check-circle.svg" alt="Check"
+                                    class="w-6 h-6 mt-0.5 shrink-0" />
+                                <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
+                                    Tata bahasa tidak bisa dipelajari tanpa Hiragana
+                                </p>
+                            </div>
+
+                            <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="350">
+                                <img src="./hiragana_assets/images/check-circle.svg" alt="Check"
+                                    class="w-6 h-6 mt-0.5 shrink-0" />
+                                <p class="text-lg font-normal text-text-primary tracking-[-0.014rem]">
+                                    Belajar kanji butuh Hiragana
+                                </p>
+                            </div>
+
+                            <div class="grid xs:grid-cols-[2fr_1.2fr] grid-cols-[2.5fr_1fr] mb-[59px] overflow-visible">
+                                <div class="flex items-center gap-2" data-aos="fade-right" data-aos-delay="400">
+                                    <img src="./hiragana_assets/images/check-circle.svg" alt="Check"
+                                        class="w-6 h-6 mt-0.5" />
+                                    <p
+                                        class="text-lg leading-[25px] font-normal text-text-primary tracking-[-0.014rem]">
+                                        Tanpa Hiragana & Katakana progres belajar jadi sangat lambat
+                                    </p>
+                                </div>
+                                <div class="overflow-visible">
+                                    <!-- Student Image -->
+                                    <img src="./hiragana_assets/images/student-benefits.webp" alt="Student"
+                                        class="absolute -right-8 bottom-0 xs:w-[170px] w-[150px] z-50 object-contain" />
+                                </div>
                             </div>
                         </div>
+
                     </div>
+                </div>
 
+                <!-- CTA Button -->
+                <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="100">
+                    <button
+                        class="bg-brand-red text-white px-8 py-3 rounded-md font-semibold text-base flex items-center gap-2">
+                        <span>Daftar Sekarang</span>
+                        <img src="./hiragana_assets/images/arrow-right-red.svg" alt="Arrow"
+                            class="w-4 h-4 brightness-0 invert" />
+                    </button>
                 </div>
             </div>
 
-            <!-- CTA Button -->
-            <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="100">
-                <button
-                    class="bg-brand-red text-white px-8 py-3 rounded-md font-semibold text-base flex items-center gap-2">
-                    <span>Daftar Sekarang</span>
-                    <img src="hiragana_assets/images/arrow-right-red.svg" alt="Arrow"
-                        class="w-4 h-4 brightness-0 invert" />
-                </button>
-            </div>
-        </div>
+            <!-- Decorative SVG -->
+            <img src="./hiragana_assets/images/question-mark.svg" alt="Question" data-aos="fade-left"
+                data-aos-delay="300" data-aos-duration="800"
+                class="absolute right-2 xs:top-2 top-4 xs:w-[54px] xs:h-[74px] w-[40px] h-[50px] z-50" />
+        </section>
 
-        <!-- Decorative SVG -->
-        <img src="hiragana_assets/images/question-mark.svg" alt="Question" data-aos="fade-left" data-aos-delay="300"
-            data-aos-duration="800" class="absolute right-2 top-2 w-[54px] h-[74px] z-50" />
-    </section>
-
-    <!-- Confused Section -->
-    <section class="section-container px-4 py-6 relative">
-        <div class="bg-brand-red-dark rounded-xl py-8 px-6 relative text-center" data-aos="fade-up"
-            style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
-            <h2 class="text-2xl font-extrabold text-white mb-5 tracking-[-0.019rem] px-4" data-aos="fade-up"
-                data-aos-delay="100">
-                Pengen mulai belajar<br />Tapi... Kamu bingung belajar dari mana?
-            </h2>
-
-            <p class="text-lg font-normal text-white mb-6 px-4 tracking-[-0.014rem]" data-aos="fade-up"
-                data-aos-delay="150">
-                <span class="font-bold">TENANG!!!</span> Di WKWK JAPANESE ada Kelas
-                Hiragana & Katakana yang cocok untuk pemula!
-            </p>
-
-            <p class="text-lg font-normal text-white mb-8 tracking-[-0.014rem]">
-                Perlu kamu buktikan sendiri, dengan kelas ini, kamu bisa menguasai
-                Hiragana & Katakana dalam 2 hari!
-            </p>
-
-            <hr class="border-dashed border-white mb-8" />
-
-            <h3 class="text-2xl font-extrabold text-white mb-8 xs:tracking-[-0.019rem] tracking-[-0.034rem] ">
-                Belajarnya sama siapa nih?<br />Kenalan sama sensei yuk!
-            </h3>
-
-
-
-            <!-- Student Photo -->
-            <div class="relative left-3" data-aos="zoom-in" data-aos-delay="100">
-                <img src="hiragana_assets/images/student-testimonial.webp" alt="Edvina Winata"
-                    class="w-11/12 h-auto object-cover rounded-xl mx-auto" />
-            </div>
-
-            <!-- Testimonial Card -->
-            <div class="relative bg-white rounded-xl py-6 mb-6 -mt-24 z-50" data-aos="fade-up" data-aos-delay="200">
-                <h4 class="text-lg font-semibold text-text-primary mb-4 tracking-[-0.014rem]">
-                    Edvina Winata (Pina-sensei)
-                </h4>
-                <hr class="border-text-primary mb-4" />
-                <div class="px-6 text-start">
-                    <p class="text-base font-normal text-text-primary tracking-[-0.014rem]">
-                        “Kalau kamu merasa belajar bahasa Jepang itu berat, mungkin bukan
-                        materinya yang salah—tapi dasarnya belum kuat.
-                    </p>
-                    <p class="text-base font-normal text-text-primary mt-4 tracking-[-0.014rem]">
-                        Di kelas Hiragana & Katakana ini, aku akan bantu kamu membangun
-                        fondasi yang benar supaya kamu bisa lanjut belajar tanpa stuck.”
-                    </p>
-
-                </div>
-            </div>
-
-            <!-- CTA Button -->
-            <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="300">
-                <button
-                    class="bg-brand-red text-white px-8 py-3 rounded-md font-semibold text-base flex items-center gap-2">
-                    <span>Daftar Sekarang</span>
-                    <img src="hiragana_assets/images/arrow-right-red-2.svg" alt="Arrow"
-                        class="w-4 h-4 brightness-0 invert" />
-                </button>
-            </div>
-
-            <!-- Decorative Elements -->
-            <img src="hiragana_assets/images/quote.svg" alt="Quote" data-aos="fade-right" data-aos-delay="200"
-                data-aos-duration="800" class="absolute left-6 bottom-[570px]" />
-            <div class="absolute right-[30px] xs:bottom-[650px] bottom-[620px] text-[64px] font-bold leading-[39px] -rotate-24"
-                data-aos="fade-left" data-aos-delay="300" data-aos-duration="800"
-                style="color: rgba(245, 245, 245, 0.62)">
-                ね
-            </div>
-        </div>
-    </section>
-
-    <!-- Schedule Section -->
-    <section class="section-container px-6 pb-6 relative">
-        <!-- Decorative Clock Icon -->
-        <img src="hiragana_assets/images/clock-icon.svg" alt="Clock" data-aos="fade-down" data-aos-delay="100"
-            data-aos-duration="800" class="absolute right-2.5 -top-1.5 z-50" />
-
-        <div class="bg-white rounded-md border border-[#e5e5e5] p-6" data-aos="fade-up"
-            style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
-            <h2 class="text-2xl font-extrabold text-gray-dark mb-6 text-center" style="letter-spacing: -0.46px">
-                Jadwal Kelas
-            </h2>
-
-            <div class="bg-brand-pink rounded-xl p-6" data-aos="fade-up" data-aos-delay="100"
+        <!-- Confused Section -->
+        <section class="section-container px-4 py-6 relative">
+            <div class="bg-brand-red-dark rounded-xl py-8 px-6 relative text-center" data-aos="fade-up"
                 style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
-                <div class="space-y-4 w-fit mx-auto">
-                    <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="150">
-                        <img src="hiragana_assets/images/video-camera.svg" alt="Video" class="w-6 h-6" />
-                        <span class="text-lg font-semibold text-text-primary" style="letter-spacing: -0.25px">Kelas
-                            Online Via Zoom</span>
-                    </div>
+                <h2 class="text-2xl font-extrabold text-white mb-5 tracking-[-0.019rem] px-4" data-aos="fade-up"
+                    data-aos-delay="100">
+                    Pengen mulai belajar<br />Tapi... Kamu bingung belajar dari mana?
+                </h2>
 
-                    <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="200">
-                        <img src="hiragana_assets/images/calendar.svg" alt="Calendar" class="w-5 h-5" />
-                        <span class="text-lg font-semibold text-text-primary" style="letter-spacing: -0.25px">Setiap
-                            Sabtu & Minggu</span>
-                    </div>
+                <p class="text-lg font-normal text-white mb-6 px-4 tracking-[-0.014rem]" data-aos="fade-up"
+                    data-aos-delay="150">
+                    <span class="font-bold">TENANG!!!</span> Di WKWK JAPANESE ada Kelas
+                    Hiragana & Katakana yang cocok untuk pemula!
+                </p>
 
-                    <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="250">
-                        <img src="hiragana_assets/images/clock.svg" alt="Clock" class="w-5 h-5" />
-                        <span class="text-lg font-semibold text-text-primary" style="letter-spacing: -0.25px">Jam 09:00
-                            - 11:00 WIB</span>
+                <p class="text-lg font-normal text-white mb-8 tracking-[-0.014rem]">
+                    Perlu kamu buktikan sendiri, dengan kelas ini, kamu bisa menguasai
+                    Hiragana & Katakana dalam 2 hari!
+                </p>
+
+                <hr class="border-dashed border-white mb-8" />
+
+                <h3
+                    class="text-xl xs:text-2xl font-extrabold text-white mb-8 xs:tracking-[-0.019rem] tracking-[-0.034rem] ">
+                    Belajarnya sama siapa nih?<br />Kenalan sama sensei yuk!
+                </h3>
+
+
+
+                <!-- Student Photo -->
+                <div class="relative left-3" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./hiragana_assets/images/student-testimonial.webp" alt="Edvina Winata"
+                        class="w-11/12 h-auto object-cover rounded-xl mx-auto" />
+                </div>
+
+                <!-- Testimonial Card -->
+                <div class="relative bg-white rounded-xl py-6 mb-6 -mt-24 z-50" data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text-lg font-semibold text-text-primary mb-4 tracking-[-0.014rem]">
+                        Edvina Winata (Pina-sensei)
+                    </h4>
+                    <hr class="border-text-primary mb-4" />
+                    <div class="px-6 text-start">
+                        <p class="text-base font-normal text-text-primary tracking-[-0.014rem]">
+                            “Kalau kamu merasa belajar bahasa Jepang itu berat, mungkin bukan
+                            materinya yang salah—tapi dasarnya belum kuat.
+                        </p>
+                        <p class="text-base font-normal text-text-primary mt-4 tracking-[-0.014rem]">
+                            Di kelas Hiragana & Katakana ini, aku akan bantu kamu membangun
+                            fondasi yang benar supaya kamu bisa lanjut belajar tanpa stuck.”
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="300">
+                    <button
+                        class="bg-brand-red text-white px-8 py-3 rounded-md font-semibold text-base flex items-center gap-2">
+                        <span>Daftar Sekarang</span>
+                        <img src="./hiragana_assets/images/arrow-right-red-2.svg" alt="Arrow"
+                            class="w-4 h-4 brightness-0 invert" />
+                    </button>
+                </div>
+
+                <!-- Decorative Elements -->
+                <img src="./hiragana_assets/images/quote.svg" alt="Quote" data-aos="fade-right" data-aos-delay="200"
+                    data-aos-duration="800"
+                    class="absolute left-6 bottom-[570px] xs:w-[54px] xs:h-[74px] w-[40px] h-[50px]" />
+                <div class="absolute right-[30px] xs:bottom-[650px] bottom-[620px] text-[64px] font-bold leading-[39px] -rotate-24 xs:w-[48px] xs:h-[64px] w-[64px] h-[64px]"
+                    data-aos="fade-left" data-aos-delay="300" data-aos-duration="800"
+                    style="color: rgba(245, 245, 245, 0.62)">
+                    ね
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="section-container px-6 pb-6 relative">
+            <!-- Decorative Clock Icon -->
+            <img src="./hiragana_assets/images/clock-icon.svg" alt="Clock" data-aos="fade-down" data-aos-delay="100"
+                data-aos-duration="800" class="absolute right-2.5 -top-1.5 z-50" />
+
+            <div class="bg-white rounded-md border border-[#e5e5e5] p-6" data-aos="fade-up"
+                style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
+                <h2 class="text-2xl font-extrabold text-gray-dark mb-6 text-center" style="letter-spacing: -0.46px">
+                    Jadwal Kelas
+                </h2>
+
+                <div class="bg-brand-pink rounded-xl p-6" data-aos="fade-up" data-aos-delay="100"
+                    style="box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1)">
+                    <div class="space-y-4 w-fit mx-auto">
+                        <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="150">
+                            <img src="./hiragana_assets/images/video-camera.svg" alt="Video" class="w-6 h-6" />
+                            <span class="xs:text-lg text-base font-semibold text-text-primary"
+                                style="letter-spacing: -0.25px">Kelas
+                                Online Via Zoom</span>
+                        </div>
+
+                        <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./hiragana_assets/images/calendar.svg" alt="Calendar" class="w-5 h-5" />
+                            <span class="xs:text-lg text-base font-semibold text-text-primary"
+                                style="letter-spacing: -0.25px">Setiap
+                                Sabtu & Minggu</span>
+                        </div>
+
+                        <div class="flex items-center gap-3" data-aos="fade-right" data-aos-delay="250">
+                            <img src="./hiragana_assets/images/clock.svg" alt="Clock" class="w-5 h-5" />
+                            <span class="xs:text-lg text-base font-semibold text-text-primary"
+                                style="letter-spacing: -0.25px">Jam
+                                09:00
+                                - 11:00 WIB</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Pricing Section -->
-    <section class="section-container bg-dark-bg px-6 py-12 relative">
-        <!-- Blur Effects -->
-        <div class="absolute top-0 right-0 w-20 h-20 rounded-full blur-3xl bg-[#C72025]"></div>
-        <div class="absolute bottom-0 left-0 w-20 h-20 rounded-full blur-3xl bg-[#3B82F6]"></div>
+        <!-- Pricing Section -->
+        <section class="section-container bg-dark-bg px-6 py-12 relative">
+            <!-- Blur Effects -->
+            <div class="absolute top-0 right-0 w-20 h-20 rounded-full blur-3xl bg-[#C72025]"></div>
+            <div class="absolute bottom-0 left-0 w-20 h-20 rounded-full blur-3xl bg-[#3B82F6]"></div>
 
-        <div class="relative z-10">
-            <h2 class="text-2xl font-bold text-white text-center mb-2" data-aos="fade-up" style="
+            <div class="relative z-10">
+                <h2 class="xs:text-2xl text-xl font-bold text-white text-center mb-2" data-aos="fade-up" style="
             font-family: 'Poppins', sans-serif;
             line-height: 32px;
             letter-spacing: -0.46px;
           ">
-                Kamu bakal dapat aja?
-            </h2>
-            <p class="text-lg font-normal text-gray-text text-center mb-8" style="
+                    Kamu bakal dapat apa aja?
+                </h2>
+                <p class="text-lg font-normal text-gray-text text-center mb-8" style="
             font-family: 'Poppins', sans-serif;
             line-height: 20px;
             letter-spacing: -0.25px;
             ">
-                Jangan kaget sama isinya!
-            </p>
+                    Jangan kaget sama isinya!
+                </p>
 
-            <!-- Pricing Items -->
-            <div class=" mb-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
-                            <img src="hiragana_assets/images/users.svg" alt="Users" class="w-full" />
+                <!-- Pricing Items -->
+                <div class=" mb-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
+                                <img src="./hiragana_assets/images/users.svg" alt="Users" class="w-full" />
+                            </div>
+                            <span class="text-lg font-medium text-white"
+                                style="font-family: 'Poppins', sans-serif; line-height: 20px">Sesi Kelas Online</span>
                         </div>
-                        <span class="text-lg font-medium text-white"
-                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Sesi Kelas Online</span>
+                        <span class="text-sm font-bold text-white"
+                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 99.000</span>
                     </div>
-                    <span class="text-sm font-bold text-white"
-                        style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 99.000</span>
-                </div>
-                <hr class="border-[#1F2937] my-4" />
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
-                            <img src="hiragana_assets/images/play-circle.svg" alt="Play" class="w-full" />
+                    <hr class="border-[#1F2937] my-4" />
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
+                                <img src="./hiragana_assets/images/play-circle.svg" alt="Play" class="w-full" />
+                            </div>
+                            <span class="text-lg font-medium text-white"
+                                style="font-family: 'Poppins', sans-serif; line-height: 20px">Rekaman Kelas</span>
                         </div>
-                        <span class="text-lg font-medium text-white"
-                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rekaman Kelas</span>
+                        <span class="text-sm font-bold text-white"
+                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 79.000</span>
                     </div>
-                    <span class="text-sm font-bold text-white"
-                        style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 79.000</span>
-                </div>
-                <hr class="border-[#1F2937] my-4" />
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
-                            <img src="hiragana_assets/images/book.svg" alt="Book" class="w-full" />
+                    <hr class="border-[#1F2937] my-4" />
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
+                                <img src="./hiragana_assets/images/book.svg" alt="Book" class="w-full" />
+                            </div>
+                            <span class="text-lg font-medium text-white"
+                                style="font-family: 'Poppins', sans-serif; line-height: 20px">E-Book Pembelajaran</span>
                         </div>
-                        <span class="text-lg font-medium text-white"
-                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Buku Pembelajaran</span>
+                        <span class="text-sm font-bold text-white"
+                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 49.000</span>
                     </div>
-                    <span class="text-sm font-bold text-white"
-                        style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 49.000</span>
-                </div>
-                <hr class="border-[#1F2937] my-4" />
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
-                            <img src="hiragana_assets/images/video.svg" alt="Video" class="w-full" />
+                    <hr class="border-[#1F2937] my-4" />
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
+                                <img src="./hiragana_assets/images/video.svg" alt="Video" class="w-full" />
+                            </div>
+                            <span class="text-lg font-medium text-white"
+                                style="font-family: 'Poppins', sans-serif; line-height: 20px">Video Pembelajaran</span>
                         </div>
-                        <span class="text-lg font-medium text-white"
-                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Video Pembelajaran</span>
+                        <span class="text-sm font-bold text-white"
+                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 79.000</span>
                     </div>
-                    <span class="text-sm font-bold text-white"
-                        style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 79.000</span>
-                </div>
-                <hr class="border-[#1F2937] my-4" />
-                <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-4">
-                        <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
-                            <img src="hiragana_assets/images/chat.svg" alt="Chat" class="w-full" />
+                    <hr class="border-[#1F2937] my-4" />
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="bg-[#C72025]/20 p-1.5 rounded w-8">
+                                <img src="./hiragana_assets/images/chat.svg" alt="Chat" class="w-full" />
+                            </div>
+                            <span class="text-lg font-medium text-white"
+                                style="font-family: 'Poppins', sans-serif; line-height: 20px">Konsultasi Gratis Via
+                                WA</span>
                         </div>
-                        <span class="text-lg font-medium text-white"
-                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Konsultasi Gratis Via
-                            WA</span>
+                        <span class="text-sm font-bold text-white"
+                            style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 49.000</span>
                     </div>
-                    <span class="text-sm font-bold text-white"
-                        style="font-family: 'Poppins', sans-serif; line-height: 20px">Rp 49.000</span>
+                    <hr class="border-[#1F2937] my-4" />
                 </div>
-                <hr class="border-[#1F2937] my-4" />
-            </div>
 
-            <!-- Special Bonus -->
-            <div class="rounded-xl border p-4 mb-8" data-aos="zoom-in" data-aos-delay="200" style="
+                <!-- Special Bonus -->
+                <div class="rounded-xl border p-4 mb-8" data-aos="zoom-in" data-aos-delay="200" style="
             border-color: rgba(199, 32, 37, 0.3);
             background-color: rgba(199, 32, 37, 0.1);
           ">
-                <div class="grid grid-cols-[2.1fr_0.9fr] items-center gap-2 justify-between">
-                    <div class="grid grid-cols-[0.5fr_2.5fr] items-center gap-2">
-                        <div class="p-1.5 rounded w-9 bg-brand-red-dark">
-                            <img src="hiragana_assets/images/gift.svg" alt="Gift" class="w-full" />
+                    <div class="grid grid-cols-[2.1fr_0.9fr] items-center gap-2 justify-between">
+                        <div class="grid grid-cols-[0.5fr_2.5fr] items-center gap-2">
+                            <div class="p-1.5 rounded w-9 bg-brand-red-dark">
+                                <img src="./hiragana_assets/images/gift.svg" alt="Gift" class="w-full" />
+                            </div>
+                            <div class="text-lg leading-[20px] tracking-[0]">
+                                <p class="font-bold text-brand-red-dark uppercase mb-2">
+                                    Bonus Spesial
+                                </p>
+                                <p class="font-medium text-white">
+                                    Voucher Diskon Kelas N5 & JFT Basic
+                                </p>
+                            </div>
                         </div>
-                        <div class="text-lg leading-[20px] tracking-[0]">
-                            <p class="font-bold text-brand-red-dark uppercase mb-2">
-                                Bonus Spesial
-                            </p>
-                            <p class="font-medium text-white">
-                                Voucher Diskon Kelas N5 & JFT Basic
-                            </p>
-                        </div>
-                    </div>
-                    <div class="flex">
-                        <div class="ms-auto w-fit text-start text-sm font-bold text-brand-red-dark">
-                            <p>
-                                Rp 100.000 -
-                            </p>
-                            <p>Rp 200.000</p>
+                        <div class="flex">
+                            <div class="xs:ms-auto w-fit text-start xs:text-sm text-xs font-bold text-brand-red-dark">
+                                <p>
+                                    Rp 100.000 -
+                                </p>
+                                <p>Rp 200.000</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Total Value -->
-            <div class="text-center mb-6" data-aos="fade-up" data-aos-delay="300">
-                <p class="text-sm font-normal text-white mb-1"
-                    style="font-family: 'Poppins', sans-serif; line-height: 20px">
-                    Total Value Yang Kamu Dapat
-                </p>
-                <p class="text-[30px] font-bold text-white line-through mb-6"
-                    style="font-family: 'Poppins', sans-serif; line-height: 36px">
-                    Rp 555.000
-                </p>
+                <!-- Total Value -->
+                <div class="text-center mb-6" data-aos="fade-up" data-aos-delay="300">
+                    <p class="text-sm font-normal text-white mb-1"
+                        style="font-family: 'Poppins', sans-serif; line-height: 20px">
+                        Total Value Yang Kamu Dapat
+                    </p>
+                    <p class="text-[30px] font-bold text-white line-through mb-6"
+                        style="font-family: 'Poppins', sans-serif; line-height: 36px">
+                        Rp 555.000
+                    </p>
 
-                <p class="text-lg font-medium text-white mb-2"
-                    style="font-family: 'Poppins', sans-serif; line-height: 20px">
-                    Harga Promo Hari Ini
-                </p>
-                <p class="text-5xl font-bold text-brand-red-dark mb-8"
-                    style="font-family: 'Poppins', sans-serif; line-height: 48px">
-                    Rp 100.000
-                </p>
-            </div>
+                    <p class="text-lg font-medium text-white mb-2"
+                        style="font-family: 'Poppins', sans-serif; line-height: 20px">
+                        Harga Promo Hari Ini
+                    </p>
+                    <p class="text-5xl font-bold text-brand-red-dark mb-8"
+                        style="font-family: 'Poppins', sans-serif; line-height: 48px">
+                        Rp 100.000
+                    </p>
+                </div>
 
-            <!-- Final CTA -->
-            <button data-aos="zoom-in" data-aos-delay="400"
-                class="w-full bg-brand-red-dark text-white px-4 xs:px-6 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3"
-                style="
+                <!-- Final CTA -->
+                <button data-aos="zoom-in" data-aos-delay="400"
+                    class="w-full bg-brand-red-dark text-white px-4 xs:px-6 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3"
+                    style="
             font-family: 'Poppins', sans-serif;
             box-shadow: 0px 4px 6px rgba(199, 32, 37, 0.3),
               0px 10px 15px rgba(199, 32, 37, 0.3);
           ">
-                <span class="text-lg font-bold">Ambil Promo 100K Sekarang!</span>
-                <img src="hiragana_assets/images/arrow-right-white.svg" alt="Arrow"
-                    class="w-4 h-2 brightness-0 invert" />
-            </button>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="section-container bg-brand-red-dark px-6 py-8">
-        <div class="flex flex-col items-center gap-5" data-aos="fade-up">
-            <img src="https://cdn.wkwk-japanese.com/icon/%5BWKWK+JP%5D+LOGO_FA_V2.png" alt="WKWK Japanese Logo"
-                class="w-[60px] h-[60px]" />
-
-            <div class="flex flex-col gap-4 text-center">
-                <div class="flex items-center justify-center gap-1.5 text-sm font-normal text-white"
-                    style="letter-spacing: -0.08px">
-                    <span>Kebijakan Privasi</span>
-                    <span>|</span>
-                    <span>Syarat & Ketentuan</span>
-                    <span>|</span>
-                </div>
-
-                <div class="flex items-center justify-center gap-1.5 text-sm font-normal text-white"
-                    style="letter-spacing: -0.08px">
-                    <span>Kebijakan Pengembalian Dana</span>
-                    <span>|</span>
-                    <span>Informasi Kontak</span>
-                </div>
+                    <span class="xs:text-lg text-base font-bold">Ambil Promo 100K Sekarang!</span>
+                    <img src="./hiragana_assets/images/arrow-right-white.svg" alt="Arrow"
+                        class="w-4 h-2 brightness-0 invert" />
+                </button>
             </div>
+        </section>
 
-            <p class="text-sm font-normal text-white text-center" style="letter-spacing: -0.08px; line-height: 20px">
-                Kelas Intensif Bahasa Jepang by<br />
-                <span class="font-semibold">WKWK JAPANESE</span>
-            </p>
+        <!-- Footer -->
+        <footer class="section-container bg-brand-red-dark px-6 py-8">
+            <div class="grid justify-center items-center gap-5" data-aos="fade-up">
+                <img src="https://cdn.wkwk-japanese.com/icon/%5BWKWK+JP%5D+LOGO_FA_V2.png" alt="WKWK Japanese Logo"
+                    class="w-[60px] h-[60px] mx-auto" />
 
-            <p class="text-sm font-normal text-white" style="letter-spacing: -0.08px">
-                PT Darinol Inovasi Indonesia
-            </p>
-        </div>
-    </footer>
+                <div class="flex flex-col gap-4 text-center">
+                    <div class="flex items-center justify-center gap-1.5 xs:text-sm text-xs font-normal text-white"
+                        style="letter-spacing: -0.08px">
+                        <span>Kebijakan Privasi</span>
+                        <span>|</span>
+                        <span>Syarat & Ketentuan</span>
+                        <span>|</span>
+                    </div>
 
-    <script src="hiragana_assets/js/script.js"></script>
+                    <div class="flex items-center justify-center gap-1.5 xs:text-sm text-xs font-normal text-white"
+                        style="letter-spacing: -0.08px">
+                        <span>Kebijakan Pengembalian Dana</span>
+                        <span>|</span>
+                        <span>Informasi Kontak</span>
+                    </div>
+                </div>
+
+                <p class="text-sm font-normal text-white text-center"
+                    style="letter-spacing: -0.08px; line-height: 20px">
+                    Kelas Intensif Bahasa Jepang by<br />
+                    <span class="font-semibold">WKWK JAPANESE</span>
+                </p>
+
+                <p class="text-sm font-normal text-white text-center" style="letter-spacing: -0.08px">
+                    PT Darinol Inovasi Indonesia
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./hiragana_assets/js/script.js"></script>
 </body>
 
 </html>
